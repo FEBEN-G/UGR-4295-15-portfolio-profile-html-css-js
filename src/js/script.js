@@ -4,8 +4,15 @@ const navbar = document.querySelector('.navbar');
 
 
 document.querySelector('#menu-icon').onclick = () => {
+  if (window.location.pathname.endsWith("/index.html")){
+    if (menuIcon.src.includes('bx-menu.svg')) {
+      menuIcon.src = './src/Icons/bx-x.svg'; 
+    } else {
+      menuIcon.src = './src/Icons/bx-menu.svg';
+    }
+  }
  
-  if (menuIcon.src.includes('bx-menu.svg')) {
+  else if (menuIcon.src.includes('bx-menu.svg')) {
     menuIcon.src = './Icons/bx-x.svg'; 
   } else {
     menuIcon.src = './Icons/bx-menu.svg';
