@@ -4,34 +4,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="/css/style.css">
+    <title>Skills</title>
+    <link rel="stylesheet" href="/src/css/style.css">
 
 
 </head>
 <body>
 
- <header class="header">
-    <a href="#" class="logo">Feben. <span class="animate" style="--i:1;"></span></a>
+    <header class="header">
+        <a href="#" class="logo">Feben. <span class="" style="--i:1;"></span></a>
+        <div id="menu-icon">
+            <img src="./Icons/bx-menu.svg" alt="Menu Icon">
+            <span class="" style="--i:2;"></span>
+        </div>
+        <nav class="navbar" id = "navbar" >
+            <a href="./home.html" class="active">Home</a>
+            <a href="./about.html">About</a>
+            <a href="./skills.html">Skills</a>
+            <a href="./service.html">Services</a>
+            <a href="./portfolio.html">Portfolio</a>
+            <a href="./contact.html">Contact</a>
+            <span class="active-nav"></span>
+            <span class="" style="--i:2;"></span>
+        </nav>
+    </header>
 
-    <div class="bx bx-menu" id="menu-icon"> <span class="animate" style="--i:2;"></span></div>
 
-    <nav class="navbar">
-        <a href="#home" class="active">Home</a>
-        <a href="#about">About</a>
-        <a href="#skills">Skills</a>
-        <a href="#services">Services</a>
-        <a href="#portfolio">Portfolio</a>
-        <a href="#contact">Contact</a>
-
-        <span class="active-nav"></span>
-        <span class="animate" style="--i:2;"></span>
-    </nav>
- </header>
-
-
-<section id="skills">
-    <h2>My <span>Skills</span></h2>
+ <section class="skills" id="skills">
+    <h2 class="heading">My <span>Skills</span><span class=" scroll" style="--i:1;"></span></h2>
     <table class="skills-table">
         <thead>
             <tr>
@@ -88,7 +88,8 @@
             </tr>
         </tbody>
     </table>
-
 </section>
+
+<script src="/src/js/script.js"></script>
 </body>
 </html>

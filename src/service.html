@@ -4,36 +4,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="/css/style.css">
+    <title>Service</title>
+    <link rel="stylesheet" href="/src/css/style.css">
 </head>
 <body>
 
-<header class="header">
-    <a href="#" class="logo">Feben. <span class="animate" style="--i:1;"></span></a>
-
-    <div class="bx bx-menu" id="menu-icon"> <span class="animate" style="--i:2;"></span></div>
-
-    <nav class="navbar">
-        <a href="#home" class="active">Home</a>
-        <a href="#about">About</a>
-        <a href="#skills">Skills</a>
-        <a href="#services">Services</a>
-        <a href="#portfolio">Portfolio</a>
-        <a href="#contact">Contact</a>
-
-        <span class="active-nav"></span>
-        <span class="animate" style="--i:2;"></span>
-    </nav>
-</header>
+    <header class="header">
+        <a href="#" class="logo">Feben. <span class="" style="--i:1;"></span></a>
+        <div id="menu-icon">
+            <img src="./Icons/bx-menu.svg" alt="Menu Icon">
+            <span class="" style="--i:2;"></span>
+        </div>
+        <nav class="navbar" id = "navbar" >
+            <a href="./home.html" class="active">Home</a>
+            <a href="./about.html">About</a>
+            <a href="./skills.html">Skills</a>
+            <a href="./service.html">Services</a>
+            <a href="./portfolio.html">Portfolio</a>
+            <a href="./contact.html">Contact</a>
+            <span class="active-nav"></span>
+            <span class="" style="--i:2;"></span>
+        </nav>
+    </header>
 
 <section class="services" id="services">
-    <h2 class="heading">Our <span>Services</span></h2>
-    <h5>Explore the expertise we bring to your projects:</h5>
-
+    <h2 class="heading">Our <span>Services</span><span class=" scroll" style="--i:1;"></span></h2>
     <div class="services-container">
         <div class="services-box">
-           
+            <img src="./Icons/bx-code-alt.svg" alt="">
             <h3>Web Development</h3>
             <h6>We specialize in crafting digital excellence:</h6>
             <ol>
@@ -52,27 +50,14 @@
                         <li><h5>Ensures high performance</h5></li>
                     </ul>
                 </li>
-                <li>User-friendly and accessible
-                    <ul>
-                        <li><h5>Improves user experience</h5></li>
-                    </ul>
-                </li>
-                <li>Ongoing maintenance
-                    <ul>
-                        <li><h5>Security and updates</h5></li>
-                    </ul>
-                </li>
             </ol>
-            
             <div class="btn-box btns">
-                <a href="#" class="btn">
-                    Read More
-                </a>
+                <a href="#" class="btn">Read More</a>
             </div>
-        </div> 
+        </div>
 
         <div class="services-box">
-           
+            <img src="./Icons/bxs-paint.svg" alt="">
             <h3>Graphic Design</h3>
             <h6>Delivering creativity through visuals:</h6>
             <ol>
@@ -91,27 +76,14 @@
                         <li><h5>Optimized for user interaction</h5></li>
                     </ul>
                 </li>
-                <li>Print-ready materials
-                    <ul>
-                        <li><h5>High-quality and professional</h5></li>
-                    </ul>
-                </li>
-                <li>Motion graphics
-                    <ul>
-                        <li><h5>Engaging and dynamic</h5></li>
-                    </ul>
-                </li>
             </ol>
-            
             <div class="btn-box btns">
-                <a href="#" class="btn">
-                    Read More
-                </a>
+                <a href="#" class="btn">Read More</a>
             </div>
-        </div> 
+        </div>
 
         <div class="services-box">
-          
+            <img src="./Icons/bx-palette.svg" alt="">
             <h3>Fine Art</h3>
             <h6>Capturing stories through creativity:</h6>
             <ol>
@@ -130,40 +102,29 @@
                         <li><h5>Unique and thought-provoking</h5></li>
                     </ul>
                 </li>
-                <li>Art workshops
-                    <ul>
-                        <li><h5>Learn from the experts</h5></li>
-                    </ul>
-                </li>
-                <li>Gallery exhibitions
-                    <ul>
-                        <li><h5>Showcasing creative talent</h5></li>
-                    </ul>
-                </li>
             </ol>
-            
             <div class="btn-box btns">
-                <a href="#" class="btn">
-                    Read More
-                </a>
+                <a href="#" class="btn">Read More</a>
             </div>
-        </div> 
-    </div> 
+        </div>
+    </div>
 
-    <div class="vid">
-        <h5>Experience a glimpse of our artistry:</h5>
+    <div class="vid" >
+        
+        <h5>Experience a glimpse of our artistry:</h5><span style="display: flex; gap: 50px; margin: auto; justify-content: center; flex-wrap:wrap">
         <video width="290" height="250" controls>
-            <source src="/video/video_2024-11-01_10-31-12.mp4" type="video/mp4">
+            <source src="./video/video_2024-11-01_10-31-12.mp4" type="video/mp4">
         </video>
+       
         <figure>
-            <img width="150" src="/images/photo_2024-11-01_11-37-09.jpg" alt="African women art">
+            <img width="150" src="./images/photo_2024-11-01_11-37-09.jpg" alt="African women art">
             <figcaption>
-                <h6>African Women Art</h6> 
+                <h6>African Women Art</h6>
                 This piece celebrates the strength, beauty, and resilience of African women, capturing their diverse cultures and rich heritage. Through vibrant colors and intricate patterns, it highlights their roles as caregivers, leaders, and innovators within their communities. This artwork serves as a tribute to their enduring spirit and the rich narratives they embody.
             </figcaption>
-        </figure>
+        </figure> </sp>
     </div>
 </section>
-
+<script src="/src/js/script.js"></script>
 </body>
 </html>

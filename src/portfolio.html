@@ -4,95 +4,89 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="/css/style.css">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="/src/css/style.css">
    
 </head>
 <body>
 
+    <header class="header">
+        <a href="#" class="logo">Feben. <span class="" style="--i:1;"></span></a>
+        <div id="menu-icon">
+            <img src="./Icons/bx-menu.svg" alt="Menu Icon">
+            <span class="" style="--i:2;"></span>
+        </div>
+        <nav class="navbar" id = "navbar" >
+            <a href="./home.html" class="active">Home</a>
+            <a href="./about.html">About</a>
+            <a href="./skills.html">Skills</a>
+            <a href="./service.html">Services</a>
+            <a href="./portfolio.html">Portfolio</a>
+            <a href="./contact.html">Contact</a>
+            <span class="active-nav"></span>
+            <span class="" style="--i:2;"></span>
+        </nav>
+    </header>
 
-<header class="header">
-    <a href="#" class="logo">Feben. <span class="animate" style="--i:1;"></span></a>
-
-    <div class="bx bx-menu" id="menu-icon"> <span class="animate" style="--i:2;"></span></div>
-
-    <nav class="navbar">
-        <a href="#home" class="active">Home</a>
-        <a href="#about">About</a>
-        <a href="#skills">Skills</a>
-        <a href="#services">Services</a>
-        <a href="#portfolio">Portfolio</a>
-        <a href="#contact">Contact</a>
-
-        <span class="active-nav"></span>
-        <span class="animate" style="--i:2;"></span>
-    </nav>
-</header>
 
 <section class="portfolio" id="portfolio">
-    <h2 class="heading">Latest <span>Project</span></h2>
+    <h2 class="heading">Latest <span>Project</span><span class=" scroll" style="--i:1;"></span></h2>
     <div class="portfolio-container">
         <div class="portfolio-box">
-            <img width="450" src="/images/Responsive-Landing-Page.png" alt="A responsive landing page design">
+            <img width="450" src="./images/Responsive-Landing-Page.png" alt="A responsive landing page design">
             <div class="portfolio-layer">
                 <h4>Responsive Landing Page</h4>
                 <p>A sleek, fully responsive landing page designed to adapt seamlessly to all devices, providing an optimal user experience.</p>
-                <a href="#"><img src="/Icons/bx-link-external.svg" alt="External Link Icon"></a>
-
+                <a href="#"><img src="./Icons/bx-link-external.svg" alt="External Link Icon"></a>
             </div>
         </div>
 
         <div class="portfolio-box">
-            <img width="450" src="/images/personalBlog.png" alt="A blog layout showcasing personal posts">
+            <img width="450" src="./images/personalBlog.png" alt="A blog layout showcasing personal posts">
             <div class="portfolio-layer">
                 <h4>Personal Blog</h4>
                 <p>A minimalistic and modern blog platform for sharing personal stories, articles, and creative content.</p>
-                <a href="#"><img src="/Icons/bx-link-external.svg" alt="External Link Icon"></a>
-
+                <a href="#"><img src="./Icons/bx-link-external.svg" alt="External Link Icon"></a>
             </div>
         </div>
 
         <div class="portfolio-box">
-            <img width="450" src="/images/stochwatch.png" alt="A digital stopwatch application interface">
+            <img width="450" src="./images/stochwatch.png" alt="A digital stopwatch application interface">
             <div class="portfolio-layer">
                 <h4>Stopwatch Web Application</h4>
                 <p>An easy-to-use stopwatch application built with a clean interface and precise time-tracking features.</p>
-                <a href="#"><img src="/Icons/bx-link-external.svg" alt="External Link Icon"></a>
-
+                <a href="#"><img src="./Icons/bx-link-external.svg" alt="External Link Icon"></a>
             </div>
         </div>
 
         <div class="portfolio-box">
-            <img width="450" src="/images/tic-toc.png" alt="An interactive Tic-Tac-Toe web application">
+            <img width="450" src="./images/tic-toc.png" alt="An interactive Tic-Tac-Toe web application">
             <div class="portfolio-layer">
                 <h4>Tic-Tac-Toe Web Application</h4>
                 <p>A fun and interactive Tic-Tac-Toe game built with JavaScript, offering a challenging experience for users.</p>
-                <a href="#"><img src="/Icons/bx-link-external.svg" alt="External Link Icon"></a>
-
+                <a href="#"><img src="./Icons/bx-link-external.svg" alt="External Link Icon"></a>
             </div>
         </div>
 
         <div class="portfolio-box">
-            <img width="450" src="/images/weather.png" alt="A weather application showing current conditions">
+            <img width="450" src="./images/weather.png" alt="A weather application showing current conditions">
             <div class="portfolio-layer">
                 <h4>Weather App</h4>
                 <p>A real-time weather forecasting app, providing accurate updates for any location with a user-friendly interface.</p>
-                <a href="#"><img src="/Icons/bx-link-external.svg" alt="External Link Icon"></a>
-
+                <a href="#"><img src="./Icons/bx-link-external.svg" alt="External Link Icon"></a>
             </div>
         </div>
 
         <div class="portfolio-box">
-            <img width="450" src="/images/personalPortfolio.jpg" alt="A personal portfolio website design">
+            <img width="450" src="./images/personalPortfolio.jpg" alt="A personal portfolio website design">
             <div class="portfolio-layer">
                 <h4>Personal Portfolio Website</h4>
                 <p>A beautifully crafted portfolio showcasing my skills, projects, and contact information in a professional layout.</p>
-                <a href="#"><img src="/Icons/bx-link-external.svg" alt="External Link Icon"></a>
-
+                <a href="#"><img src="./Icons/bx-link-external.svg" alt="External Link Icon"></a>
             </div>
         </div>
     </div>
 </section>
-
+<script src="/src/js/script.js"></script>
 </body>
 </html>

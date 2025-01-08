@@ -4,53 +4,55 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="/css/style.css">
+    <title>About</title>
+    <link rel="stylesheet" href="/src/css/style.css">
 </head>
 <body>
 
 
- <header class="header">
-    <a href="#" class="logo">Feben. <span class="animate" style="--i:1;"></span></a>
+    <header class="header">
+        <a href="#" class="logo">Feben. <span class="" style="--i:1;"></span></a>
+        <div id="menu-icon">
+            <img src="./Icons/bx-menu.svg" alt="Menu Icon">
+            <span class="" style="--i:2;"></span>
+        </div>
+        <nav class="navbar" id = "navbar" >
+            <a href="./home.html" class="active">Home</a>
+            <a href="./about.html">About</a>
+            <a href="./skills.html">Skills</a>
+            <a href="./service.html">Services</a>
+            <a href="./portfolio.html">Portfolio</a>
+            <a href="./contact.html">Contact</a>
+            <span class="active-nav"></span>
+            <span class="" style="--i:2;"></span>
+        </nav>
+    </header>
 
-    <div class="bx bx-menu" id="menu-icon"> <span class="animate" style="--i:2;"></span></div>
-
-    <nav class="navbar">
-        <a href="#home" class="active">Home</a>
-        <a href="#about">About</a>
-        <a href="#skills">Skills</a>
-        <a href="#services">Services</a>
-        <a href="#portfolio">Portfolio</a>
-        <a href="#contact">Contact</a>
-
-        <span class="active-nav"></span>
-        <span class="animate" style="--i:2;"></span>
-    </nav>
- </header>
  <section class="about" id="about">
-    <h2 class="heading">About <span>Me</span></h2>
-
+    <h2 class="heading">About <span>Me</span><span class=" scroll" style="--i:1;"></span></h2>
     <div class="about-img">
-        <img width="450" src="/images/IMG_924.JPG" alt="">
+        <img width="450" src="./images/IMG_924.JPG" alt="">
         <span class="circle-spin"></span>
+        <span class=" scroll" style="--i:2;"></span>
     </div>
     <div class="about-content">
-        <h3>Full-Stack Developer!</h3>
-        <p>I’m Feben, a full-stack web developer based in Addis Ababa. With a strong foundation in both front-end and back-end development, I’m dedicated to building user-centric, responsive websites and applications. My journey in software engineering at Addis Ababa University has fueled my passion for coding and solving real-world problems. I’m always eager to learn new technologies and techniques to improve my craft and create innovative solutions for users.</p>
+        <h3>Full-Stack Developer!<span class=" scroll" style="--i:3;"></span></h3>
+        <p>I’m Feben, a full-stack web developer based in Addis Ababa. With a strong foundation in both front-end and back-end development, I’m dedicated to building user-centric, responsive websites and applications. My journey in software engineering at Addis Ababa University has fueled my passion for coding and solving real-world problems. I’m always eager to learn new technologies and techniques to improve my craft and create innovative solutions for users.
+            <span class=" scroll" style="--i:4;"></span>
+        </p>
 
         <div class="btn-box btns">
-            <a href="#" class="btn">
-                Read More
-            </a>
+            <a href="#" class="btn">Read More</a>
+            <span class=" scroll" style="--i:5;"></span>
         </div>
 
         <div class="audio-container">
             <audio controls>
-                <source src="/audio/ttsMP3.com_VoiceText_2024-11-1_11-19-10.mp3" type="audio/mp3">
+                <source src="./audio/ttsMP3.com_VoiceText_2024-11-1_11-19-10.mp3" type="audio/mp3">
             </audio>
         </div>
-
     </div>
-   </section>
+</section>
+   <script src="/src/js/script.js"></script>
    </body>
    </html>
